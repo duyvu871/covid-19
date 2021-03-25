@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <link 
+        rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" 
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" 
+        crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dropdown.css">
+    <script src="dropdown.js"></script>
+    <script src="htmlRender.js"></script>
+</head>
+<body>
+    <div class="search">
+        <div class="content-box">
+            <div class="render">
+                
+            </div>
+            <div class="container-box">
+                <input type="checkbox" name="checking" id="checking">
+                <label for="checking" class="tag1">
+                    <div class="box" id="box" name="box">
+                        <input type="search" placeholder="Search here" id="search">
+                        <a><i class="fas fa-search-location"></i></a>
+                    </div>
+                </label>
+                <ul id="listCountry" class="moving">
+                    
+                </ul>
+                <div class="sideScrollBar"></div>
+            </div>
+        </div>
+    </div>
+    <div class="active-cases">
+
+    </div>
+
+    <div class="chart">
+        <div id="chartContainer" style="height:auto; width: 100%;"></div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
